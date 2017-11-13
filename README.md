@@ -8,4 +8,6 @@
   - index.html 이 기본 메인 페이지.
 
   - ![PC](./Stage_2/img/PC.jpg)
+  
+  
   - ![Phone](./Stage_2/img/Phone.jpg)
