@@ -1,6 +1,5 @@
-# goodoc_internship_test
-2017 굿닥 인턴십 테스트
-국민대학교 컴퓨터공학부 4학년 김세희
+# 2017 Goodoc Internship Test
+[ 국민대학교 컴퓨터공학부 4학년 김세희 ]
 
 1. Stage_1
 
