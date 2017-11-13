@@ -1,0 +1,47 @@
+.clearfix 			{ clear: both; }
+.long				{ width: 100%; float: left; }
+
+body,div,img,footer,p,section,br {
+    background: #f0f0f0;
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline; 
+}
+
+body { 
+	background: #1eccdb; color: #222;
+	-webkit-transition-duration: 0.5s, 0.5s;
+	-moz-transition-duration: 0.5s, 0.5s;
+	transition-duration: 0.5s, 0.5s; 
+	-webkit-transition-timing function: linear, ease-in;
+	-moz-transition-timing function: linear, ease-in; 
+	transition-timing function: linear, ease-in; 
+}
+
+footer 				{ padding: 5px; }
+p 					{ padding: 0 5px 0 5px; }
+
+img {
+	max-width: 100%;
+	height: auto;
+	width: auto\9;
+	border-radius: 7px;	
+}
+
+#wrapper 			{ margin: 10px auto; max-width: 980px; width: 55.5%; background: #f0f0f0; padding: 10px 0; }
+#first				{ padding: 0 20px; }
+#second				{ padding: 20px; text-align: center; }
+#third 				{ padding: 20px; text-align: center; }
+#banner1 			{ padding: 10px; width: 20%; height:20%; float: right;}
+#banner2 			{ margin-left: 33%; margin-right: auto; display: block; width: 30%; height: 25%; }
+#banner3 			{ padding: 10px; width: 15%; height:15%; float: left;}
+
+@media screen and (max-width: 740px) {
+	
+	body 			{ width: 100%; }
+	
+	.long 			{ width: 100%; }
+	#wrapper 		{ width: 90%; }
+	
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!-- 국민대학교 컴퓨터공학부 4학년 김세희 2017.11.15 -->
+<html>
+<head>
+	<title>굿닥 | 병원약국 검색어플</title> 
+	<meta charset="utf-8" />
+	<link rel="stylesheet" type="text/css" href="style.css" />	
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1"/>
+	<link href="img/favicon.png" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+</head>
+
+<script type="text/javascript">
+function event_click() {
+	alert("click event 생성");
+}
+
+function getMouseLocation(e) {
+	if(e) {var E=e;} //FF
+	else {var E=window.event; } //IE
+	
+	var locationX = E.clientX;
+	var locationY = E.clientY;
+	alert("X좌표: " + locationX + "  Y좌표: " + locationY);
+}
+</script>
+
+<body id="home">		
+	<div id="wrapper">
+		<div class="clearfix"></div>
+		<section id="main-content">
+		
+			<div id="first">
+				<div id="banner1"><img src="img/goodoc2.png"/> </div>
+				<div id="banner3"><img src="img/goodoc3.png"/> </div>
+				<div id="banner2"><img src="img/goodoc.png"/> </div>
+				<br>
+			</div> 
+			
+			<div id="third">
+				<img onclick="location.href='https://www.goodoc.co.kr';" src="img/내주변병원.png"/>
+			</div>
+			
+			<div id="second">
+				<div class="clearfix"></div>
+				<section class="long">
+					<img onclick="location.href='https://www.goodoc.co.kr/pharmacies';" src="img/내주변약국.png" />
+					<img onclick="location.href='https://www.goodoc.co.kr/themes?category_id=225&list_open=1&selected=0';" src="img/상황별병원.png" />
+					<img onclick="event_click()" src="img/병원이벤트.png"/>
+					<img onclick="getMouseLocation(event)" src="img/캐스트.png"/>
+				</section> 
+			</div> 
+			
+			<div class="clearfix"></div>
+		</section>	
+		
+		<footer>
+			<p>&copy; 2017.11.15 Goodoc Internship Test</p>
+		</footer>		
+	</div> 
+
+</body>
+</html>
