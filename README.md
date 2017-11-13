@@ -7,5 +7,5 @@
   - http://sara05594.dothome.co.kr/ 에 2번 문제 무료 호스팅해 놓았음.
   - index.html 이 기본 메인 페이지.
 
-  ![PC](./Stage_2/img/PC.jpg)
-  ![Phone](./Stage_2/img/Phone.jpg)
+  - ![PC](./Stage_2/img/PC.jpg)
+  - ![Phone](./Stage_2/img/Phone.jpg)
