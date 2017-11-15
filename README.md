@@ -3,7 +3,7 @@
 
 1. Stage_1
 - 결과화면
-![](capture_2.JPG)
+- ![](capture_2.JPG)
 
 2. Stage_2
   - http://sara05594.dothome.co.kr/ 에 2번 문제 무료 호스팅해 놓았음.
