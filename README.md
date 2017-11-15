@@ -2,8 +2,8 @@
 [ 국민대학교 컴퓨터공학부 4학년 김세희 ]
 
 1. Stage_1
-  - 결과화면
-  ![capture](./img/capture.jpg)
+- 결과화면
+- ![capture](./img/capture.jpg)
 
 2. Stage_2
   - http://sara05594.dothome.co.kr/ 에 2번 문제 무료 호스팅해 놓았음.
