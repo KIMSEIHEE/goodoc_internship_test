@@ -22,6 +22,7 @@ public class Stage_1 {
 		String line = "";
 		int i;
 		int row = 0;
+		//int col = 3;
 		int days = Integer.parseInt(message);
 
 		System.out.println("hospital, distance, possible : ");
@@ -43,6 +44,7 @@ public class Stage_1 {
 
 				// System.out.println("");
 				// row++;
+
 				
 				if (days == 20171110) {
 					if (indat[0][2].contains("O")) {
@@ -93,7 +95,7 @@ public class Stage_1 {
 				}
 				
 				else if (days == 20171116) {
-					if (indat[0][3].contains("O")) {
+					if (indat[0][8].contains("O")) {
 						System.out.println(indat[0][0] + " , " + indat[0][1]
 								+ " , " + indat[0][8]);
 					} else
@@ -101,7 +103,7 @@ public class Stage_1 {
 				}
 				
 				else if (days == 20171117) {
-					if (indat[0][3].contains("O")) {
+					if (indat[0][9].contains("O")) {
 						System.out.println(indat[0][0] + " , " + indat[0][1]
 								+ " , " + indat[0][9]);
 					} else
@@ -109,7 +111,7 @@ public class Stage_1 {
 				}
 				
 				else if (days == 20171118) {
-					if (indat[0][3].contains("O")) {
+					if (indat[0][10].contains("O")) {
 						System.out.println(indat[0][0] + " , " + indat[0][1]
 								+ " , " + indat[0][10]);
 					} else
@@ -117,7 +119,7 @@ public class Stage_1 {
 				}
 				
 				else if (days == 20171119) {
-					if (indat[0][3].contains("O")) {
+					if (indat[0][11].contains("O")) {
 						System.out.println(indat[0][0] + " , " + indat[0][1]
 								+ " , " + indat[0][11]);
 					} else
