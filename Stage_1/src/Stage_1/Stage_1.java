@@ -10,7 +10,7 @@ public class Stage_1 {
 		String message;
 
 		String[][] indat = new String[27][12];
-		String[][] dat = new String[26][3];
+		//String[][] dat = new String[26][3];
 
 		Scanner scan = new Scanner(System.in); // 문자 입력을 인자로 Scanner 생성
 		System.out.println("날짜를 입력하세요 : ");
@@ -20,8 +20,8 @@ public class Stage_1 {
 		String csvFile = "C:/Users/sara kim/workspace/Goodoc/src/Stage_1/hospital_info.csv";
 		BufferedReader br = null;
 		String line = "";
-		int i, j;
-		int row = 0, col = 3;
+		int i;
+		int row = 0;
 		int days = Integer.parseInt(message);
 
 		System.out.println("hospital, distance, possible : ");
