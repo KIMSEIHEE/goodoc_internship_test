@@ -1,4 +1,4 @@
-# 2017 Goodoc Internship Test
+# 2017 Goodoc Test
 [ 국민대학교 컴퓨터공학부 4학년 김세희 ]
 
 1. Stage_1
